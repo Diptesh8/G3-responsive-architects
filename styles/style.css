@@ -18,8 +18,14 @@
 .orange{
     background-color: #FF900E;
 }
+.dark-1{
+    color:#131313;
+}
 .dark-2{
     color: #424242;
+}
+.dark-3{
+    color:#727272;
 }
 .header-back{
     background-color: rgba(255, 144, 14, 0.1);
@@ -29,9 +35,11 @@
    
 .navbar{
     justify-content: space-around;
+    align-items: center;
+    margin-bottom: 102px;
 }
 .logo{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -47,4 +55,39 @@ ul li a{
 .navbar .banner{
     max-width: 1440px;
     margin: 0px auto;
+}
+/* Header banner section work */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-title{
+    font-size:64px ;
+    font-weight:Bold ;
+    width: 862px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    width: 868px;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.btn{
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+    height: 64px;
+    color: #ffff;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.head-img{
+    width: 1440px;
+    height: auto;
+    border-radius: 8px;
 }
