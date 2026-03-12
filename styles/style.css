@@ -2,10 +2,8 @@ auto
 
 /* font style here */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-.work-sans{
-  font-family: "Inter", sans-serif;
+.work-sans {
+  font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -143,6 +141,75 @@ main{
     width:180px ;
     height: 64px;
     border-radius: 8px;
+    border: none;
+}
+
+/* container-two work start */
+
+.container-two{
+    display: flex;
+    margin-top: 130px;
+}
+.contain-2-title{
+    width:468px ;
+    font-size:45px ;
+    font-weight:bold;
+}
+.contain-2-description{
+    font-size: 16px;
+    font-weight: 400;
+    width: 586px;
+}
+.f-b-title{
+    font-size: 20px;
+    font-weight: 600;
+    color:#131313
+}
+.f-b-descriptio{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.door{
+    background-color: antiquewhite;
+    width: 586px;
+    height: 170px;
+}
+
+/* container-three-work */
+
+.container-three-work{
+    margin-top: 130px;
+}
+.three-title{
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.three-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+
+/* four-award-img work */
+
+.four-award{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.same-four{
+    height: 240px;
+    width: 240px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
 
 /* Responsive Media Quaire  small device*/
