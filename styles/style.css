@@ -83,11 +83,36 @@ ul li a{
     width: 180px;
     height: 64px;
     color: #ffff;
-    font-size: 20px;
+    font-size:1.25rem;
     margin-bottom: 50px;
 }
 .head-img{
-    width: 1440px;
+    width:100%;
     height: auto;
     border-radius: 8px;
+}
+
+/* Responsive Media Quaire  small device*/
+@media screen and (max-width:576px){
+    .display-flex{
+        flex-direction: column;  
+        margin-bottom: 10px;
+    }
+   .list-items{
+    gap: 5px;
+   }
+    .banner-title,.banner-description{
+        width: 100%;
+    }
+  
+}
+/* Responsive Media Quaire  medium device*/
+@media screen and (min-width:576px) and (max-width:992px){
+    .display-flex{
+        flex-direction: column;  
+        margin-bottom: 10px;
+    }
+    .banner-title,.banner-description{
+        width: 100%;
+    }
 }
