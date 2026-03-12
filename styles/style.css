@@ -249,6 +249,7 @@ main{
     align-items:center;
     justify-content: space-between;
     margin-top: 50px;
+    filter: grayscale(100%);
 }
 /* Responsive Media Quaire  small device*/
 @media screen and (max-width:576px){
@@ -287,6 +288,10 @@ main{
     .four-award {
         flex-direction: column;
         gap: 10px;
+    }
+    .second-part{
+        flex-direction: column;
+        gap: 50px;
     }
 
 }
