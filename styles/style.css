@@ -12,6 +12,9 @@ auto
 .display-flex{
     display: flex;
 }
+.hide{
+    display: none;
+}
 /* color here */
 .orange{
     background-color: #FF900E;
@@ -206,12 +209,28 @@ main{
     width: 240px;
     border-radius: 8px;
     background-color: aliceblue;
-    display: flex;
+    display: grid;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    border: 2px solid #FF900E;
 }
-
+.image-award{
+    margin-top: 45px;
+}
+.award-title{
+  margin-top: 5px;
+  margin-bottom:6px;
+  font-size: 2.81rem;
+  font-size: 600;
+  color: #424242;
+}
+.award-description{
+    font-size: 1.25rem;
+    margin-top: 5px;
+    font-weight: 400;
+    color: #424242;
+}
 /* Responsive Media Quaire  small device*/
 @media screen and (max-width:576px){
     .display-flex{
@@ -242,6 +261,9 @@ main{
     .container{
         flex-direction: column;
     }
+    .same-four{
+        grid-template-columns:1fr;
+    }
 
 }
 /* Responsive Media Quaire  medium device*/
@@ -258,4 +280,5 @@ main{
    }
     
 }
+
 
