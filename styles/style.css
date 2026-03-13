@@ -251,6 +251,22 @@ main{
     margin-top: 50px;
     filter: grayscale(100%);
 }
+/* footer part work */
+footer{
+    width: 1440px;
+    height: 100px;
+    background-color:#FFF4E7;
+    margin: 0px auto;
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #424242;
+}
 /* Responsive Media Quaire  small device*/
 @media screen and (max-width:576px){
     .display-flex{
@@ -293,6 +309,10 @@ main{
         flex-direction: column;
         gap: 50px;
     }
+    footer{
+        width: 100%;
+        text-align: center;
+    }
 
 }
 /* Responsive Media Quaire  medium device*/
@@ -307,6 +327,18 @@ main{
    .container{
     flex-direction: column;
    }
+   .second-part{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .four-award {
+        gap: 10px;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        text-align: center;
+    }
     
 }
 
