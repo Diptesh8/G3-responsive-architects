@@ -157,6 +157,8 @@ main{
     width:468px ;
     font-size:45px ;
     font-weight:bold;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
 }
 .contain-2-description{
     font-size: 16px;
@@ -173,10 +175,41 @@ main{
     font-weight: 400;
     color: #727272;
 }
+.four-box-part{
+    margin-right: 140px;
+}
 .door{
-    background-color: antiquewhite;
+    background-color:#FFF;
     width: 586px;
     height: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.25);
+}
+.two-image-m{
+    width: 700px;
+    height: 982px;
+}
+.btn-primary{
+    width:342px ;
+    height:200px ;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: #FFF;
+    border: none;
+    text-align: center;
+}
+.first-head{
+    font-size: 65px;
+    font-weight: bold;
+}
+.sec-head{
+    font-size: 25px;
+    font-weight:600;
 }
 
 /* container-three-work */
@@ -339,6 +372,12 @@ footer{
         width: 100%;
         text-align: center;
     }
+
+    
+/* .container-two{
+    flex-direction: column;
+    width: 100%;
+} */
     
 }
 
