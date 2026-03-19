@@ -349,9 +349,35 @@ footer{
         width: 100%;
         text-align: center;
     }
-    ..btn-primary{
+    .btn-primary{
         justify-content: ;
     }
+    .container-two{
+        flex-direction: column;
+    }
+    .two-image-m{
+        width: 100%;
+    }
+    .btn-primary{
+        width: 100%;
+        right: 0px;
+    }
+    .four-award{
+        width: 100%;
+    }
+    .contain-2-title{
+        width: 100%;
+    }
+    
+.contain-2-description{
+    width: 100%;
+}
+.four-box-part{
+    margin-right: 0px;
+}
+.door{
+    width: 350px;
+}
 
 }
 /* Responsive Media Quaire  medium device*/
